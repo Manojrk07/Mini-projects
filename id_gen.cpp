@@ -4,9 +4,6 @@
 using namespace std;
 
 int main(){
-    //ofstream out;
-    //out.open("details.txt");
-    //out.close();
 
     ifstream in;
     string st[3];
@@ -14,14 +11,9 @@ int main(){
     int i=0;
     while(in.eof()==0){
         getline(in,st[i]);
-
-        //cout<<st[i]<<endl;
         i++;
     }
 
-    // cout<<"Name: "<<st[0]<<endl;
-    // cout<<"company: "<<st[1]<<endl;
-    // cout<<"Mobile number: "<<st[2]<<endl;
 
     for(int i=0;i<3;i++){
         if(i==0){
